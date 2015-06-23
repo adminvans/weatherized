@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weatherized</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/custom.modernizr.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/foundation/foundation.interchange.js"></script>
+	<script src="js/vendor/enquire.min.js"></script>
+	<script src="js/vendor/skrollr.min.js"></script>
+	<script src="js/vendor/wow.min.js"></script>
+	<script src="js/vendor/jquery.lazyload.js"></script>
+
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- START ASYNCHRONOUS TYPEKIT -->
+	<script type="text/javascript">
+		(function() {
+			var config = {
+				kitId : 'jhn5vye',
+				scriptTimeout : 3000
+			};
+			var h = document.getElementsByTagName("html")[0];
+			h.className += " wf-loading";
+			var t = setTimeout(function() {
+				h.className = h.className.replace(/(\s|^)wf-loading(\s|$)/g, " ");
+				h.className += " wf-inactive"
+			}, config.scriptTimeout);
+			var tk = document.createElement("script"), d = false;
+			tk.src = '//use.typekit.net/' + config.kitId + '.js';
+			tk.type = "text/javascript";
+			tk.async = "true";
+			tk.onload = tk.onreadystatechange = function() {
+				var a = this.readyState;
+				if (d || a && a != "complete" && a != "loaded")
+					return;
+				d = true;
+				clearTimeout(t);
+				try {
+					Typekit.load(config)
+				} catch (b) {
+				}
+			};
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(tk, s)
+		})();
+	</script>
+	<!-- END ASYNCHRONOUS TYPEKIT -->
+
+</head>
+
+
+<body>
+
+<section class="masthead">
+	<div class="row" style="height: 95px;">
+		<div class="large-2"><img src="http://sites.vans.com/microsites/ecom/pdp-story/uc1/images/logo-faux-header.jpg" alt=""></div>
+	</div>
+	<div class="blk-bar"></div>
+</section>
+
+<div class="mte-wrap">
+
+	<section class="mte__hero">
+		<img src="http://sites.vans.com/microsites/weatherized/f15/bg-mte-hero.jpg" alt="" class="mte__hero--bg">
+		<div class="mte__hero--logo">
+			<!-- <img data-interchange="[http://s7d2.scene7.com/is/image/VansBrand/mte-logo-tagline-md?wid=580&fmt=png8-alpha, (default)], [http://s7d2.scene7.com/is/image/VansBrand/mte-logo-tagline-lg?wid=840&fmt=png8-alpha, (small)]" alt=""> -->
+			<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-logo-tagline-md?wid=580&fmt=png8-alpha" alt="" class="small">
+			<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-logo-tagline-lg?wid=840&fmt=png8-alpha" alt="" class="default">
+		</div>
+	</section><!-- /.mte__hero -->
+
+	<section class="mte__body">
+
+		<div class="row">
+			<div class="large-4 columns">
+				<div class="mte__product sk8hi stacked wow fadeIn" data-wow-offset="100" data-wow-delay="0.75s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-honey?wid=320" height="200" width="320">
+					<p>Sk8-Hi MTE</p>
+				</div><!-- /.product -->
+				<div class="mte__product oldskool stacked wow fadeIn" data-wow-offset="100" data-wow-delay="1s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk?wid=320" height="200" width="320">
+					<p>Sk8-Hi MTE</p>
+				</div><!-- /.product -->
+			</div>
+			<div class="large-7 large-offset-1 columns wow fadeIn scale__shoe-group" data-wow-delay="1.25s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-shoe-group-lg-v2?wid=660&qfmt=jpeg&qlt=80" width="660" height="550">
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-5 small-single-item interchange-item columns wow fadeInDown" data-wow-offset="100">
+				<!-- <img data-interchange="[http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-women-01-md?wid=655, (default)], [http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-women-01?wid=470, (small)]"> -->
+				<img class="default" src="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-women-01?wid=470">
+				<img class="small" src="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-women-01-md?wid=655">
+			</div>
+			<div class="large-4 large-offset-0 small-6 small-offset-1 columns mte__product">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-shoe-detail-skatehi-khaki?wid=365" height="460" width="365">
+				<p>Sk8-Hi MTE</p>
+			</div>
+			<div class="large-3 small-5 columns wow fadeInUp end" data-wow-offset="100">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-shoe-env-skatehi-khaki?wid=274" height="500" width="274">
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row product-3-column">
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-oldskool-honey?wid=320" height="200" width="320">
+				<p>Old Skool MTE</p>
+			</div><!-- /.product -->
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-ginger?wid=320" height="200" width="320">
+				<p>Sk8-Hi MTE</p>
+			</div><!-- /.product -->
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.5s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-pewter?wid=320" height="200" width="320">
+				<p>Sk8-Hi MTE</p>
+			</div><!-- /.product -->
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-7 small-7 columns wow fadeIn full-width-640" data-wow-offset="50">
+				<!-- <div class="modal-trigger--01">
+					<span class="open-dialog-js" data-reveal-id="modal" data-reveal-ajax="//www.vans.com/shop/VFQuickViewDisplay?storeId=10153&amp;langId=-1&amp;urlLangId=-1&amp;productId=3181407"><img src="images/icon-target.svg" alt=""></span>
+				</div> --><!-- /.modal-trigger -->
+				<!-- <div class="modal-trigger--02">
+					<span class="open-dialog-js" data-reveal-id="modal" data-reveal-ajax="//www.vans.com/shop/VFQuickViewDisplay?storeId=10153&amp;langId=-1&amp;urlLangId=-1&amp;productId=3181407"><img src="images/icon-target.svg" alt=""></span>
+				</div> --><!-- /.modal-trigger -->
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-group-01?wid=658" height="560" width="658">
+			</div>
+			<div class="large-5 small-5 columns pad-left--15 wow fadeIn hide-640" data-wow-offset="50" data-wow-delay="0.25s">
+				<!-- <div class="modal-trigger--03">
+					<span data-tooltip class="tip-left" data-width="500" title="<img src='http://s7d2.scene7.com/is/image/VansBrand/mte-fairhaven-brick?wid=320'><br>shoes"><img src="images/icon-target.svg" alt=""></span>
+				</div> --><!-- /.modal-trigger -->
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/shoe-sk8hi-mte-honey-detail?wid=452" height="560" width="452">
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-11 columns">
+				<div class="mte__detail--jonessport-iris wow fadeInUp" data-wow-offset="50" data-wow-delay="1s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-jacket-jonessport-iris-detail?wid=280" height="209" width="280">
+				</div><!-- /.mte--detail -->
+				<div class="small-6 small mte__product pull wow fadeIn" data-wow-offset="50">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-jacket-jonessport-blk?wid=480" height="464" width="480">
+					<p>Jonessport MTE</p>
+				</div><!-- /.mte__product -->
+				<div class="small-6 mte__product pull wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-jacket-jonessport-iris?wid=480" height="464" width="480">
+					<p>Jonessport MTE</p>
+				</div><!-- /.mte__product -->
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-4 small-4 columns interchange-item--640 wow fadeIn full-width-640" data-wow-offset="50">
+				<!-- <img data-interchange="[http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-woven-lifestyle-md?wid=640, (default)], [http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-woven-lifestyle?wid=375, (medium_brk_query)]" alt=""> -->
+				<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-woven-lifestyle?wid=375" class="default">
+				<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-woven-lifestyle-md?wid=640" class="small">
+			</div>
+			<div class="large-8 small-8 columns product-4-stack full-width-640">
+				<div class="row">
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.15s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-woven?wid=320" height="200" width="320">
+						<p>Sk8-Hi MTE</p>
+					</div>
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-oldskool-pewter?wid=320" height="200" width="320">
+						<p>Old Skool MTE</p>
+					</div>
+				</div><!-- /.row -->
+				<div class="row">
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.45s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-oldskool-blk?wid=320" height="200" width="320">
+						<p>Old Skool MTE</p>
+					</div>
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.75s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blk-wht?wid=320" height="200" width="320">
+						<p>Sk8-Hi MTE</p>
+					</div>
+				</div><!-- /.row -->
+			</div>
+		</div><!-- /.row -->
+
+		<div class="lazy-bg">
+			<div class="row">
+				<div class="large-8 columns wow fadeIn" data-wow-offset="50">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-group-02?wid=750" height="500" width="750">
+				</div>
+				<div class="large-4 columns wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-env01?wid=333" height="500" width="333">
+				</div>
+			</div>
+		</div><!-- /.lazy-bg -->
+
+		<div class="row relative">
+			<div class="winnipeg-details">
+				<div class="winnipeg-details--gldn wow fadeInLeft" data-wow-offset="50" data-wow-delay="1s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-gldn-detail?wid=280" height="205" width="280">
+				</div>
+				<div class="winnipeg-details--blk wow fadeInRight" data-wow-offset="50" data-wow-delay="1s">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-blk-detail?wid=280" height="205" width="280">
+				</div>
+			</div>
+
+			<div class="large-5 small-6 columns">
+				<div class="mte__product">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-gldn?wid=405" height="500" width="405">
+					<p>Winnipeg MTE</p>
+				</div><!-- /.mte__product -->
+			</div>		
+			<div class="large-5 small-6 columns">
+				<div class="mte__product push">
+					<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-blk?wid=405" height="500" width="405">
+					<p>Winnipeg MTE</p>
+				</div>
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-9 columns mte-lifestyle--bike-01 wow fadeIn" data-wow-offset="100">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-bike-jacket?wid=820" height="484" width="820">
+			</div>
+			<div class="large-3 columns mte-env-winnipeg01">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-winnipeg-env-02?wid=282" height="484" width="282" data-bottom-top="transform: scale(1.5)" data-center-bottom="transform: scale(1)">
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row product-3-column">
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-blue?wid=320" height="200" width="320">
+				<p>Old Skool MTE</p>
+			</div><!-- /.product -->
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-era-blue?wid=320" height="200" width="320">
+				<p>Sk8-Hi MTE</p>
+			</div><!-- /.product -->
+			<div class="large-4 small-4 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.5s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-era-blk-wht?wid=320" height="200" width="320">
+				<p>Sk8-Hi MTE</p>
+			</div><!-- /.product -->
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-3 columns mte-lifestyle--bike-02 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.5s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-bike-sk8hi?wid=260" height="500" width="260">
+			</div>
+			<div class="large-9 columns">
+				<div class="row">
+					<div class="large-6 small-6 columns mte__product simich">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-simich-goldenbrn?wid=423" height="464" width="423">
+						<p>Simich MTE</p>
+					</div><!-- /.mte__product -->
+					<div class="large-6 small-6 columns mte__product simich">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-simich-blk?wid=424" height="464" width="424">
+						<p>Simich MTE</p>
+					</div><!-- /.mte__product -->
+				</div><!-- /.row -->
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-4 small-4 columns push-8 interchange-item--640 wow fadeIn full-width-640" data-wow-offset="50">
+				<!-- <img data-interchange="[http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-sk8hi-md?wid=640, (default)], [http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-sk8hi?wid=375, (medium_brk_query)]" alt=""> -->
+				<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-sk8hi?wid=375" class="default">
+				<img src="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-sk8hi-md?wid=640" class="small">
+			</div>
+
+			<div class="large-8 small-8 columns pull-4 product-4-stack full-width-640">
+				<div class="row">
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.15s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-geotan?wid=320" height="200" width="320">
+						<p>Sk8-Hi MTE</p>
+					</div>
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-fairhaven-brick?wid=320" height="200" width="320">
+						<p>Old Skool MTE</p>
+					</div>
+				</div><!-- /.row -->
+				<div class="row">
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.45s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-midslip-blue?wid=320" height="200" width="320">
+						<p>Old Skool MTE</p>
+					</div>
+					<div class="large-6 small-6 columns mte__product wow fadeIn" data-wow-offset="50" data-wow-delay="0.75s">
+						<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-sk8hi-zip-blk?wid=320" height="200" width="320">
+						<p>Sk8-Hi MTE</p>
+					</div>
+				</div><!-- /.row -->
+			</div>
+		</div><!-- /.row -->
+
+		<div class="row">
+			<div class="large-7 small-7 mte-lifestyle--bike columns wow fadeIn" data-wow-offset="50" data-wow-delay="0.25s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-bike?wid=658" height="490" width="658">
+			</div>
+			<div class="large-5 small-5 columns mte-lifestyle--women-02 wow fadeIn" data-wow-offset="50" data-wow-delay="0.5s">
+				<img class="lazy" data-original="http://s7d2.scene7.com/is/image/VansBrand/mte-lifestyle-women-02?wid=456" height="490" width="456">
+			</div>
+		</div><!-- /.row -->	
+
+	</section><!-- /.mte__body -->
+	
+</div><!-- /.mte-wrap -->
+
+<div class="blank"></div>
+
+
+<div class="faux-footer">
+	<div class="full-width" style="background: #f1f2ed; height: 30px;"></div>
+	<div class="full-width" style="background: #1b1b1b; height: 300px;">
+		<div class="row" style="padding-top: 100px">
+			<img src="http://sites.vans.com/microsites/ecom/pdp-story/uc1/images/logo-faux-footer.jpg" alt="">
+		</div>
+	</div>
+</div>
+
+<script>
+
+	new WOW().init();
+	
+	$(function() {
+
+	  // lazyload
+		$("img.lazy").lazyload({
+	    effect : "fadeIn",
+	    threshold : 200
+		});
+
+		// lazyload bg
+		var ll = $('.lazy-bg');
+		var lh = []
+		var wscroll = 0;
+		var wh = $(window).height();
+
+		function update_offsets(){
+		  $('.lazy-bg').each(function(){
+		    var x = $(this).offset().top;
+		    lh.push(x);
+		  });
+		};
+
+		function lazy() {
+		  wscroll = $(window).scrollTop();
+		  for(i = 0; i < lh.length; i++){
+		    if(lh[i] <= wscroll + (wh + 500)){
+		      $('.lazy-bg').eq(i).addClass('mte__subhero');
+		    };
+		  };
+		};
+
+		// Page Load
+		update_offsets();
+		lazy();
+
+		$(window).on('scroll',function(){
+		  lazy();
+		});
+
+	});
+
+	// js to add parallax hover on hero bg image
+	jQuery(".mte__hero").mousemove(
+		function(e){
+      
+			var offset = jQuery(this).offset();
+			var xPos = e.pageX - offset.left;
+			var yPos = e.pageY - offset.top;
+
+			var mouseXPercent = Math.round(xPos / jQuery(this).width() * 100);
+			var mouseYPercent = Math.round(yPos / jQuery(this).height() * 100);
+
+			jQuery(this).children('.mte__hero--bg').each(
+				function(){
+					var diffX = jQuery('#Parallax').width() - jQuery(this).width();
+					var diffY = jQuery('#Parallax').height() - jQuery(this).height();
+
+					var myX = diffX * (mouseXPercent / 1500);
+
+					var myY = diffY * (mouseYPercent / 1080);
+
+
+					var cssObj = {
+						'left': myX + 'px',
+						'top': myY + 'px'
+					}
+          
+					jQuery(this).animate({left: myX, top: myY},{duration: 50, queue: false, easing: 'linear'});
+
+				}
+			);
+
+		}
+	);
+
+	// initialize skrollr
+	// 	skrollr.init({
+	//     forceHeight: false
+	// });
+	
+	// initialize skrollr if screen size is bigger than 768
+	$(function() {
+		
+		if ($(".blank").css("padding") == "2px" ){
+			skrollr.init({
+				forceHeight: false
+			});
+		};
+
+	})
+
+	// initialize foundation js
+	$(document).foundation();
+
+	// custom interchange queries
+	$(document).foundation('interchange', {
+	  named_queries : {
+	    medium_brk_query : 'only screen and (min-width: 641px)'
+	  }
+	});
+</script>
+
+	
+</body>
+</html>
