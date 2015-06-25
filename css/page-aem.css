@@ -1,0 +1,466 @@
+html,
+body {
+  font-size: 100%; }
+
+/*------------------------------------*
+   $AEM CODEBASE OVERRIDES
+*------------------------------------*/
+.mte-wrap .column, .mte-wrap .columns {
+  padding-left: 0;
+  padding-right: 0; }
+
+.mte-wrap .row {
+  max-width: 70.5em;
+  padding: 30px 0; }
+  @media only screen and (max-width: 1128px) {
+    .mte-wrap .row {
+      padding-left: 0.9375em;
+      padding-right: 0.9375em; } }
+  @media only screen and (max-width: 767px) {
+    .mte-wrap .row {
+      padding-bottom: 20px;
+      padding-top: 20px; } }
+  @media only screen and (max-width: 640px) {
+    .mte-wrap .row {
+      padding-top: 0; } }
+
+.mte-wrap .row .row {
+  padding: 0; }
+
+.row.full-width {
+  width: 100%; }
+
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 768px) {
+  .mte-wrap .large-1 {
+    position: relative;
+    width: 8.33333%; }
+  .mte-wrap .large-2 {
+    position: relative;
+    width: 16.66667%; }
+  .mte-wrap .large-3 {
+    position: relative;
+    width: 25%; }
+  .mte-wrap .large-4 {
+    position: relative;
+    width: 33.33333%; }
+  .mte-wrap .large-5 {
+    position: relative;
+    width: 41.66667%; }
+  .mte-wrap .large-6 {
+    position: relative;
+    width: 50%; }
+  .mte-wrap .large-7 {
+    position: relative;
+    width: 58.33333%; }
+  .mte-wrap .large-8 {
+    position: relative;
+    width: 66.66667%; }
+  .mte-wrap .large-9 {
+    position: relative;
+    width: 75%; }
+  .mte-wrap .large-10 {
+    position: relative;
+    width: 83.33333%; }
+  .mte-wrap .large-11 {
+    position: relative;
+    width: 91.66667%; }
+  .mte-wrap .large-12 {
+    position: relative;
+    width: 100%; }
+  .mte-wrap .row .large-offset-0 {
+    position: relative;
+    margin-left: 0%; }
+  .mte-wrap .row .large-offset-1 {
+    position: relative;
+    margin-left: 8.33333%; }
+  .mte-wrap .row .large-offset-2 {
+    position: relative;
+    margin-left: 16.66667%; }
+  .mte-wrap .row .large-offset-3 {
+    position: relative;
+    margin-left: 25%; }
+  .mte-wrap .row .large-offset-4 {
+    position: relative;
+    margin-left: 33.33333%; }
+  .mte-wrap .row .large-offset-5 {
+    position: relative;
+    margin-left: 41.66667%; }
+  .mte-wrap .row .large-offset-6 {
+    position: relative;
+    margin-left: 50%; }
+  .mte-wrap .row .large-offset-7 {
+    position: relative;
+    margin-left: 58.33333%; }
+  .mte-wrap .row .large-offset-8 {
+    position: relative;
+    margin-left: 66.66667%; }
+  .mte-wrap .row .large-offset-9 {
+    position: relative;
+    margin-left: 75%; }
+  .mte-wrap .row .large-offset-10 {
+    position: relative;
+    margin-left: 83.33333%; }
+  .mte-wrap .row .large-offset-11 {
+    position: relative;
+    margin-left: 91.66667%; } }
+/*------------------------------------*
+   $BASE
+*------------------------------------*/
+.mte-wrap {
+  background: #fff;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+/*------------------------------------*
+   $UTILITY
+*------------------------------------*/
+.uppercase {
+  text-transform: uppercase; }
+
+.red {
+  color: #c9192e; }
+
+.bold {
+  font-family: "franklin-gothic-urw-comp", "franklin-gothic-urw-cond", Helvetica, sans-serif;
+  font-weight: 800; }
+
+.pull {
+  float: left; }
+
+.push {
+  float: right; }
+
+.pad-left--15 {
+  padding-left: 15px !important; }
+
+.interchange-item img.small {
+  display: none; }
+  @media only screen and (max-width: 767px) {
+    .interchange-item img.small {
+      display: inline-block; } }
+.interchange-item img.default {
+  display: inline-block; }
+  @media only screen and (max-width: 767px) {
+    .interchange-item img.default {
+      display: none; } }
+
+.interchange-item--640 img.small {
+  display: none; }
+  @media only screen and (max-width: 767px) {
+    .interchange-item--640 img.small {
+      display: inline-block; } }
+.interchange-item--640 img.default {
+  display: inline-block; }
+  @media only screen and (max-width: 767px) {
+    .interchange-item--640 img.default {
+      display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .small-single-item {
+    text-align: center;
+    margin-bottom: 30px; } }
+@media only screen and (max-width: 640px) {
+  .hide-640 {
+    display: none; } }
+@media only screen and (max-width: 640px) {
+  .full-width-640 {
+    width: 100%; } }
+.relative {
+  position: relative; }
+
+.tooltip {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1.3;
+  padding: 0.5em;
+  max-width: 85%;
+  left: 50%;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+
+.tooltip > .nub {
+  display: block;
+  left: 5px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid 5px;
+  border-color: transparent transparent black transparent;
+  top: -10px; }
+
+.tooltip.opened {
+  color: #2ba6cb !important;
+  border-bottom: dotted 1px #196177 !important; }
+
+/*===========================
+=            FPO            =
+===========================*/
+.masthead {
+  height: 110px; }
+
+.masthead .blk-bar {
+  background: #000;
+  height: 15px; }
+
+/*-----  End of FPO  ------*/
+/*------------------------------------*
+   $CUSTOM STYLES
+*------------------------------------*/
+.mte__hero {
+  width: 100%;
+  height: 480px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .mte__hero {
+      height: 360px; } }
+  @media only screen and (max-width: 480px) {
+    .mte__hero {
+      height: 260px; } }
+  @media only screen and (max-width: 320px) {
+    .mte__hero {
+      height: 180px; } }
+
+.mte__hero--bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: inherit !important;
+  z-index: 5; }
+
+.mte__hero--logo {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  top: 150px;
+  width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .mte__hero--logo {
+      padding: 2%;
+      top: 25px; } }
+  @media only screen and (max-width: 480px) {
+    .mte__hero--logo {
+      top: 5px; } }
+  .mte__hero--logo img.small {
+    display: none; }
+    @media only screen and (max-width: 767px) {
+      .mte__hero--logo img.small {
+        display: inline-block; } }
+  .mte__hero--logo img.default {
+    display: inline-block; }
+    @media only screen and (max-width: 767px) {
+      .mte__hero--logo img.default {
+        display: none; } }
+
+.mte__product {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .mte__product.stacked {
+      width: 50%;
+      float: left; } }
+  .mte__product p {
+    font-size: 0.9375em;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+    .mte__product p span {
+      color: #c9192e;
+      text-transform: none; }
+  @media only screen and (max-width: 767px) {
+    .mte__product {
+      padding: 10px; } }
+  @media only screen and (max-width: 960px) {
+    .mte__product.simich {
+      padding: 0 2%; } }
+
+.mte__detail--jonessport-iris {
+  border: 2px solid #d6ae41;
+  position: absolute;
+  top: 0;
+  right: -165px;
+  z-index: 100; }
+  .mte__detail--jonessport-iris img {
+    display: block;
+    max-width: 280px; }
+  @media only screen and (max-width: 1280px) {
+    .mte__detail--jonessport-iris {
+      right: -110px; } }
+  @media only screen and (max-width: 1180px) {
+    .mte__detail--jonessport-iris {
+      right: -85px; } }
+  @media only screen and (max-width: 980px) {
+    .mte__detail--jonessport-iris {
+      display: none; } }
+
+[class^="modal-trigger"] {
+  position: absolute;
+  z-index: 50; }
+  [class^="modal-trigger"] span {
+    cursor: pointer; }
+  @media only screen and (max-width: 767px) {
+    [class^="modal-trigger"] {
+      display: none; } }
+
+.modal-trigger--01 {
+  top: 75%;
+  left: 15%; }
+
+.modal-trigger--02 {
+  top: 80%;
+  left: 88%; }
+
+.modal-trigger--03 {
+  top: 55%;
+  left: 85%; }
+
+@media only screen and (max-width: 640px) {
+  .product-3-column div:nth-child(1) {
+    width: 100%; }
+  .product-3-column div:nth-child(2) {
+    width: 50%; }
+  .product-3-column div:nth-child(3) {
+    width: 50%; } }
+
+.product-4-stack {
+  padding: 0 3% !important; }
+  @media only screen and (max-width: 980px) {
+    .product-4-stack {
+      padding: 0 5% !important; } }
+  @media only screen and (max-width: 640px) {
+    .product-4-stack {
+      padding: 0 2% !important; } }
+
+.lazy-bg {
+  height: 600px;
+  padding: 50px 1% 0; }
+  @media only screen and (max-width: 1024px) {
+    .lazy-bg {
+      height: 500px;
+      padding-top: 25px; } }
+  @media only screen and (max-width: 960px) {
+    .lazy-bg {
+      height: auto;
+      padding: 30px 2%; } }
+  .lazy-bg .row {
+    padding: 0; }
+  @media only screen and (max-width: 960px) {
+    .lazy-bg .row div:first-of-type {
+      text-align: center;
+      width: 100%; } }
+  .lazy-bg .row div:last-of-type {
+    padding-left: 3.5%; }
+    @media only screen and (max-width: 1024px) {
+      .lazy-bg .row div:last-of-type {
+        padding-left: 3.75%; } }
+    @media only screen and (max-width: 960px) {
+      .lazy-bg .row div:last-of-type {
+        display: none; } }
+
+.mte__subhero {
+  background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-subhero-fixed?wid=1800);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: static; }
+
+.winnipeg-details {
+  position: absolute;
+  left: 40%;
+  padding-top: 50px;
+  z-index: 100;
+  width: 260px; }
+  .winnipeg-details div:first-of-type {
+    margin-bottom: 10px; }
+  @media only screen and (max-width: 1140px) {
+    .winnipeg-details {
+      left: 41%;
+      width: 220px; } }
+  @media only screen and (max-width: 1080px) {
+    .winnipeg-details {
+      display: none; } }
+
+.mte-lifestyle--bike-01 {
+  padding-right: 2.45% !important; }
+  @media only screen and (max-width: 767px) {
+    .mte-lifestyle--bike-01 {
+      padding-right: 0 !important; } }
+
+.mte-lifestyle--bike-02 {
+  padding-right: 2% !important; }
+  @media only screen and (max-width: 767px) {
+    .mte-lifestyle--bike-02 {
+      display: none; } }
+
+.mte-env-winnipeg01 {
+  position: relative;
+  z-index: 105;
+  overflow: hidden;
+  text-align: center; }
+  .mte-env-winnipeg01 img {
+    z-index: -1;
+    -webkit-transform-origin: 40% 33% 0px;
+    transform-origin: 40% 33% 0px;
+    -webkit-transform: scale(1.0342019544);
+    transform: scale(1.0342019544); }
+    @media only screen and (max-width: 767px) {
+      .mte-env-winnipeg01 img {
+        -webkit-transform-origin: initial;
+        transform-origin: initial;
+        -webkit-transform: scale(1);
+        transform: scale(1); } }
+  @media only screen and (max-width: 767px) {
+    .mte-env-winnipeg01 {
+      display: none; } }
+
+@media only screen and (max-width: 640px) {
+  .small-7.mte-lifestyle--bike {
+    width: 100%; } }
+
+.mte-lifestyle--women-02 {
+  padding-left: 1.33% !important; }
+  @media only screen and (max-width: 640px) {
+    .mte-lifestyle--women-02 {
+      display: none; } }
+
+/* styles to trigger js media query */
+.blank {
+  width: 1px;
+  height: 1px;
+  padding: 1px; }
+  @media only screen and (min-width: 767px) {
+    .blank {
+      padding: 2px; } }
