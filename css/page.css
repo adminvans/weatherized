@@ -218,6 +218,48 @@ body {
   color: #2ba6cb !important;
   border-bottom: dotted 1px #196177 !important; }
 
+.button {
+  border: none;
+  box-shadow: none; }
+  .button.shop-button {
+    background-color: #b90000;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8125em;
+    font-family: "franklin-gothic-urw-cond", "gnuolane", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 10px 25px;
+    -webkit-transition: background-color 0.25s ease;
+    -o-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease; }
+    .button.shop-button:hover {
+      background-color: #000; }
+  .button:focus {
+    background-color: #000;
+    border: none;
+    outline: none; }
+
+.q-shop {
+  position: absolute;
+  padding-top: 25%;
+  height: 100%;
+  width: 100%;
+  z-index: 10; }
+  .q-shop span {
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out; }
+  .q-shop:hover span {
+    opacity: 1; }
+  .q-shop.tall {
+    padding-top: 40%; }
+
+.touch .q-shop {
+  display: none; }
+
 /*===========================
 =            FPO            =
 ===========================*/
@@ -234,20 +276,19 @@ body {
 *------------------------------------*/
 .mte__hero {
   width: 100%;
-  height: 480px;
-  margin-bottom: 10px;
+  height: 600px;
   overflow: hidden;
   position: relative;
   text-align: center; }
   @media only screen and (max-width: 767px) {
     .mte__hero {
-      height: 360px; } }
+      height: 580px; } }
   @media only screen and (max-width: 480px) {
     .mte__hero {
-      height: 260px; } }
-  @media only screen and (max-width: 320px) {
+      height: 480px; } }
+  @media only screen and (max-width: 380px) {
     .mte__hero {
-      height: 180px; } }
+      height: 536px; } }
 
 .mte__hero--bg {
   position: absolute;
@@ -260,7 +301,7 @@ body {
   position: absolute;
   z-index: 10;
   text-align: center;
-  top: 150px;
+  top: 120px;
   width: 100%; }
   @media only screen and (max-width: 767px) {
     .mte__hero--logo {
@@ -280,6 +321,210 @@ body {
       .mte__hero--logo img.default {
         display: none; } }
 
+.mte__hero--copy {
+  padding: 20px 28% 0;
+  text-align: center;
+  color: #fff; }
+  @media only screen and (max-width: 1580px) {
+    .mte__hero--copy {
+      padding: 15px 26% 0; } }
+  @media only screen and (max-width: 1340px) {
+    .mte__hero--copy {
+      padding: 15px 18% 0; } }
+  @media only screen and (max-width: 1200px) {
+    .mte__hero--copy {
+      padding: 15px 14% 0; } }
+  @media only screen and (max-width: 1080px) {
+    .mte__hero--copy {
+      padding: 15px 8% 0; } }
+  @media only screen and (max-width: 900px) {
+    .mte__hero--copy {
+      padding: 15px 2% 0; } }
+  @media only screen and (max-width: 675px) {
+    .mte__hero--copy {
+      padding: 15px 2% 0; } }
+
+.mte__hero--copy p {
+  letter-spacing: 1px; }
+.mte__hero--copy .button {
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  margin-top: 20px; }
+  .mte__hero--copy .button:hover {
+    background-color: #000; }
+  @media only screen and (max-width: 480px) {
+    .mte__hero--copy .button {
+      font-size: 0.85em; } }
+@media only screen and (max-width: 675px) {
+  .mte__hero--copy p {
+    font-size: 0.925em;
+    line-height: 1.5em; } }
+
+.btn--video {
+  background-color: #e0a304;
+  margin-right: 5%;
+  padding: 15px 35px; }
+  @media only screen and (max-width: 380px) {
+    .btn--video {
+      display: block;
+      width: 80%;
+      margin-left: 10%; } }
+
+.btn--learn {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 35px; }
+  @media only screen and (max-width: 380px) {
+    .btn--learn {
+      display: block;
+      width: 80%;
+      margin-left: 10%; } }
+
+.mte__section--features {
+  height: 500px;
+  background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-xl?wid=2400);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #000;
+  overflow: hidden;
+  position: static;
+  overflow: hidden;
+  padding: 100px 0;
+  position: relative;
+  text-align: center; }
+  .mte__section--features ul li {
+    color: #000;
+    font-size: 0.9375em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    line-height: 1.35em;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+    @media only screen and (max-width: 767px) {
+      .mte__section--features ul li {
+        font-size: 0.875em; } }
+    @media only screen and (max-width: 380px) {
+      .mte__section--features ul li {
+        letter-spacing: 0; } }
+    .mte__section--features ul li span {
+      font-weight: 300;
+      text-transform: none; }
+    .mte__section--features ul li.list-title {
+      font-family: "franklin-gothic-urw-comp", "franklin-gothic-urw-cond", Helvetica, sans-serif;
+      font-size: 2.25em;
+      font-weight: 600;
+      letter-spacing: 3px;
+      margin-bottom: 12px;
+      text-transform: uppercase; }
+      @media only screen and (max-width: 767px) {
+        .mte__section--features ul li.list-title {
+          font-size: 1.625em; } }
+      @media only screen and (max-width: 380px) {
+        .mte__section--features ul li.list-title {
+          letter-spacing: 1px; } }
+  .mte__section--features .row {
+    padding: 10px 0; }
+    @media only screen and (max-width: 767px) {
+      .mte__section--features .row {
+        padding: 75px 0 0 10px; } }
+    @media only screen and (max-width: 480px) {
+      .mte__section--features .row {
+        padding-top: 30px; } }
+  @media only screen and (max-width: 480px) {
+    .mte__section--features .features--footwear {
+      margin-left: 33%; } }
+  @media only screen and (max-width: 467px) {
+    .mte__section--features .features--footwear {
+      margin-left: 0;
+      width: 90%; } }
+  @media only screen and (max-width: 480px) {
+    .mte__section--features .features--apparel {
+      padding-top: 100px;
+      padding-left: 15px; } }
+  @media only screen and (max-width: 467px) {
+    .mte__section--features .features--apparel {
+      padding-top: 50px;
+      padding-left: 0;
+      width: 90%; } }
+  @media only screen and (max-width: 900px) {
+    .mte__section--features {
+      padding-top: 20px; } }
+  @media only screen and (max-width: 1440px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-lg?wid=1440); } }
+  @media only screen and (max-width: 1200px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-md?wid=1200); } }
+  @media only screen and (max-width: 1000px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-sm?wid=1000);
+      padding: 15px 0; } }
+  @media only screen and (max-width: 767px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-xs?wid=768);
+      text-align: left; } }
+  @media only screen and (max-width: 480px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-xxs?wid=480); } }
+  @media only screen and (max-width: 467px) {
+    .mte__section--features {
+      background-image: url(http://s7d2.scene7.com/is/image/VansBrand/bg-mte-features-xxxs-rev?wid=467); } }
+
+.mte__subhero--features {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: 100; }
+  @media only screen and (max-width: 1640px) {
+    .mte__subhero--features {
+      right: 0; } }
+  @media only screen and (max-width: 1380px) {
+    .mte__subhero--features {
+      right: -60px; } }
+  @media only screen and (max-width: 1230px) {
+    .mte__subhero--features {
+      right: -100px; } }
+  @media only screen and (max-width: 1040px) {
+    .mte__subhero--features {
+      right: -200px; } }
+  @media only screen and (max-width: 900px) {
+    .mte__subhero--features {
+      right: -250px;
+      top: -110px; } }
+  @media only screen and (max-width: 728px) {
+    .mte__subhero--features {
+      display: none; } }
+
+.section--features__copy {
+  margin-left: 8.333%; }
+  @media only screen and (max-width: 1380px) {
+    .section--features__copy {
+      margin-left: 5%; } }
+  @media only screen and (max-width: 900px) {
+    .section--features__copy {
+      margin-left: 1%; } }
+  @media only screen and (max-width: 728px) {
+    .section--features__copy {
+      margin-left: 5%; } }
+
+.mte__subhero--group {
+  height: 500px;
+  background: url(http://s7d2.scene7.com/is/image/VansBrand/bg%2Dmte%2Dfeatures%2Dhero?wid=1800);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: static; }
+  @media only screen and (max-width: 600px) {
+    .mte__subhero--group {
+      background-attachment: scroll; } }
+
 .mte__product {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -296,6 +541,8 @@ body {
     .mte__product p span {
       color: #c9192e;
       text-transform: none; }
+  .mte__product a {
+    display: block; }
   @media only screen and (max-width: 767px) {
     .mte__product {
       padding: 10px; } }
@@ -321,6 +568,16 @@ body {
   @media only screen and (max-width: 980px) {
     .mte__detail--jonessport-iris {
       display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .product--jonessport-blk {
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    margin-left: 4%; } }
+
+@media only screen and (max-width: 767px) {
+  .jonessport-detail {
+    display: none; } }
 
 [class^="modal-trigger"] {
   position: absolute;
@@ -456,6 +713,25 @@ body {
   @media only screen and (max-width: 640px) {
     .mte-lifestyle--women-02 {
       display: none; } }
+
+/* owl carousel styles */
+#owl-mte .item {
+  margin: 3px 5px;
+  text-align: center; }
+
+#owl-mte .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+
+#owl-mte .item span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 300; }
 
 /* styles to trigger js media query */
 .blank {

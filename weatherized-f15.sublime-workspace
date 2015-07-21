@@ -1,0 +1,873 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"s",
+				"snow-f15-splash-bgimg-md.jpg	w:1280 h:900"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"pdp",
+				"pdp-uc1-logo.jpg	w:189 h:178"
+			],
+			[
+				"p",
+				"pdp-uc1-circles-left.jpg	w:294 h:340"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"bg",
+				"bg-pdp-uc1-btmtexture.jpg	w:1800 h:20"
+			],
+			[
+				"b",
+				"bg-pdp-uc1-toptexture.jpg	w:1800 h:20"
+			],
+			[
+				"mrgin",
+				"margin-top"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"life",
+				"lifestyle-bubble-04.gif	w:223 h:218"
+			],
+			[
+				"lif",
+				"lifestyle-bubble-03.gif	w:436 h:429"
+			],
+			[
+				"sub",
+				"subhero-brand-assets.jpg	w:1800 h:900"
+			],
+			[
+				"su",
+				"subhero-typography.jpg	w:1800 h:900"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"g",
+				"graphic-brandlogo-usage.jpg	w:555 h:444"
+			],
+			[
+				"l",
+				"logo-brand-stamp-lg.jpg	w:345 h:190"
+			],
+			[
+				"logo",
+				"logo-flyingV-large.jpg	w:365 h:140"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"fea",
+				"feature-img-visualCharacteristics.jpg	w:1800 h:450"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"d",
+				"disc"
+			],
+			[
+				"sticky",
+				"sticky-nav"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"flip",
+				"flip-container"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"video",
+				"video-display"
+			],
+			[
+				"z",
+				"z-index"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/page.scss",
+			"settings":
+			{
+				"buffer_size": 11342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19209,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git:p",
+				"git: push"
+			],
+			[
+				"git:st",
+				"git: status"
+			],
+			[
+				"git",
+				"git: log"
+			],
+			[
+				"git:s",
+				"git: status"
+			],
+			[
+				"GitSavvy: help",
+				"GitSavvy: help"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/D8A4B1F7-5B2C-4241-9A24-5A2706B75707/form.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/TNTSG/update 2015.07.01/tntsg-aem-update-2015.07.01.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/TNTSG/update 2015.07.01/tntsg-aem-original-2015.07.01.html",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/update-customs-2015.06.08/classic-styles-customs-update-AB.html",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/update-2015.06.29/classic-styles-aem-update-customs.html",
+		"/Users/digiacj/sites/vans-styleguide/index.html",
+		"/Users/digiacj/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/digiacj/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/digiacj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/digiacj/sites/vans-styleguide/css/app.css",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/187FBA58-6180-4060-BDC4-CB0306D7E91E/index.html",
+		"/Users/digiacj/sites/Weatherized/scss/page.scss",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/8644806C-2363-475C-BE61-F2D1453ED9C8/index.html",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/B8E5D148-5F25-45C7-B666-226D494F6F61/js.js",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/ABB59A4D-0255-44E7-9DD2-5CF182B87160/ZeroClipboard.js",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/4D4AC59C-B437-4887-9EFF-21DC4A1816A0/ZeroClipboard.js",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/2F1A3D19-7A92-4319-ACE8-61A5B93E6F58/index.html",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/F7E0210C-ADE0-48B6-BC07-83E40089184E/index.html",
+		"/Users/digiacj/Desktop/FED/X-rayHTML-master/index.html",
+		"/Users/digiacj/Desktop/FED/zeroclipboard-master/test/index.html",
+		"/Users/digiacj/Desktop/FED/zeroclipboard-master/test/built/ZeroClipboard.tests.js.html",
+		"/Users/digiacj/Library/Caches/Cleanup At Startup/Transmit/C0F3BB2B-55CD-4655-A64C-BF5C8F7C1BC2/index.html",
+		"/Users/digiacj/Desktop/FED/_testing/copy-clipboard/index.html",
+		"/Users/digiacj/sites/vans-styleguide/js/jquery.zclip.js",
+		"/Users/digiacj/sites/vans-styleguide/scss/app.scss",
+		"/Users/digiacj/sites/vans-styleguide/scss/_settings.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/_aem/weatherized-aem.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/stylesheets/app.css",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/scss/app.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/_aem/weatherized/js/scripts",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/require-js-thirdparty.js",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/scss/_settings.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/bower_components/foundation/scss/foundation/_settings.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/bower_components/foundation/js/foundation.js",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/README.md",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Warped Tour/2015/_buildout/bower_components/foundation/css/foundation.css",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/DavidsRequireJS-workaround.js",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/scss/page.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/css/page-aem.css",
+		"/Users/digiacj/Desktop/FED/WOW-master/dist/wow.js",
+		"/Users/digiacj/Desktop/FED/jquery_lazyload-master/jquery.lazyload.js",
+		"/Users/digiacj/Desktop/FED/skrollr-master/src/skrollr.js",
+		"/Users/digiacj/Desktop/projects/Landing Pages/UC1/updates/2015.06/uc1-aem-2015.06.10.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/css/page.css",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/_aem og/stage-weatherized-2015.06.11.html",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/lazyload-withbg.html",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/video-code.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/_buildout/customs-leaderboard-aem.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/customs/customs-shoes-aem-og.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/_buildout/css/page.css",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/customs/customs-leaderboard.css",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/_buildout/scss/page.scss",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/customs leaderboard nav/_buildout/customs-skate-hi-aem-og.html",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/classic-styles-aem-update-AB.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/pdp customs button/pdp-customize-btn-button-style.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/pdp customs button/pdp-customize-btn-icon-style.html",
+		"/Users/digiacj/Desktop/projects/Ecom/T2 Customs/pdp customs button/pdp-customize-btn-button-style",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/update-customs-2015.06.08/classic-styles-aem-update-abtest.html",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/scrolltotop.html",
+		"/Users/digiacj/Desktop/projects/Ecom/pdp detail sections/nathan fletcher boardshorts/_buildout/css/pdp-nfboardshorts.css",
+		"/Users/digiacj/Desktop/projects/Ecom/pdp detail sections/nathan fletcher boardshorts/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Skateparks/2015.06.05/skateparks-orange-aem-update.html",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/update-2015.06.04/classic-styles-aem-update.html",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_updates/update-2015.06.04/classic-styles-og.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Skate Technology/_buildout/scss/proskate-tech.scss",
+		"/Users/digiacj/Desktop/projects/Microsites/Brand Guide/_buildout/index.html",
+		"/Users/digiacj/Desktop/FED/foundation-5.3.3/css/foundation.css",
+		"/Users/digiacj/Desktop/FED/_tips n tricks/quick-shop-ref.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/TNTSG/update 2015.06.01/tntsg-aem-original-2015.05.28.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Snow/F15/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Snow/F15/_buildout/snow-aem-2015.05.28",
+		"/Users/digiacj/Desktop/FED/foundation-4.3.2/css/foundation.css",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Snow/F15/_buildout/css/page.css",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Snow/F15/_buildout/scss/page.scss",
+		"/Users/digiacj/Desktop/projects/Landing Pages/TNTSG/update 2015.06.01/tntsg-aem-update-2015.05.28.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/UC1/buildout/css/uc1-sandal.css",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Homepage/F15/index.html",
+		"/Users/digiacj/Desktop/Design/icomoon/icomoon_1_icons/SVG/paintbrush.svg",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_buildout/classics-styles-header-CSS.txt",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_buildout/classics-styles-header-HTML.txt",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_buildout/aem-copy.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/OTW whats good LA/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/Weatherized/FA15/_buildout/js/vendor/enquire.min.js",
+		"/Users/digiacj/Desktop/projects/Ecom/classic styles/_buildout/index.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/scripts/main.js",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/fixed-positioning.css",
+		"/Users/digiacj/Desktop/FED/_testing/compass/config.rb",
+		"/Users/digiacj/Desktop/projects/Landing Pages/UC1/buildout/index.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/README.md",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/classic.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/bg_constant_speed_more.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/gradientsmotherfucker.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/circular_motion.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/pausing.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/anchor_target.html",
+		"/Users/digiacj/Desktop/FED/skrollr-master/examples/path.html",
+		"/Users/digiacj/Desktop/projects/Landing Pages/UC1/buildout/scss/uc1-sandal.scss",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/css/pdp-uc1.css",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/pdp-uc1-css",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/pdp-uc1-html",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/scss/pdp-uc1.scss",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/nathan fletcher boardshorts/_buildout/css/pdp-nfboardshorts.css",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/_archive/scss/pdp-uc1.scss",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/uc1/_buildout/_archive/index.html",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/nathan fletcher boardshorts/_buildout/index.html",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/nathan fletcher boardshorts/_buildout/scss/pdp-nfboardshorts.scss",
+		"/Users/digiacj/Desktop/projects/ecom pages/pdp detail sections/nathan fletcher boardshorts/_buildout/pdp-nfboardshort-HTML-rev01.txt",
+		"/Users/digiacj/Desktop/projects/ecom pages/olapic gallery/_buildout/_AEM/olapic-gallery.css",
+		"/Users/digiacj/Desktop/FED/_testing/compass/index.html",
+		"/Users/digiacj/Desktop/projects/ecom pages/olapic gallery/_buildout/category-widget-override.css",
+		"/Users/digiacj/Desktop/projects/ecom pages/olapic gallery/_archived original code/live-gallery-og.css",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-4/my-prj_final/sass/_layout.scss",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-4/my-prj_final/sass/_graphics.scss",
+		"/Users/digiacj/Desktop/FED/_testing/compass/css/screen.css",
+		"/Users/digiacj/Desktop/FED/_testing/compass/sass/_page.scss",
+		"/Users/digiacj/Desktop/FED/_testing/compass/sass/_colors.scss",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-1/my-prj_final/sass/_page.scss",
+		"/Users/digiacj/Desktop/FED/_testing/compass/_treehouse files/compass-basics_stage-3/video-1/my-prj_final/config.rb",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-4/my-prj_final/sass/screen.scss",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-1/my-prj_final/index.html",
+		"/Users/digiacj/Desktop/FED/_testing/compass/_treehouse files/compass-basics_stage-3/video-1/my-prj_final/sass/_colors.scss",
+		"/Users/digiacj/Desktop/FED/_testing/compass/_treehouse files/compass-basics_stage-3/video-1/my-prj_final/sass/_page.scss",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-1/my-prj_final/css/screen.css",
+		"/Users/digiacj/Desktop/FED/_TRAINING/compass/compass-basics_stage-4/video-1/my-prj_final/sass/_sprites.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Hanelei",
+			"Hanalei Sandal",
+			"eeley",
+			"eel",
+			"kishimoto",
+			" column-2-container",
+			"column-2-container",
+			"http://www.vans.com/shop/mens-collaborations-anti-hero?ref=landingpage",
+			"platform",
+			"background-position",
+			"background",
+			"header-background",
+			"header",
+			"target-to-copy",
+			"GitSavvy: help",
+			"button",
+			"copy",
+			"clientTarget",
+			"#description",
+			"callback-paragraph",
+			"alt=\"\" ",
+			"interchange-item",
+			"data-original",
+			"lazy ",
+			"single-item",
+			".small",
+			"default",
+			"top",
+			"subhero",
+			".jpg",
+			"jpg",
+			"sandal-macros-sm",
+			"658",
+			"320",
+			" href=\"#lightbox01\"",
+			"play-btn",
+			"768px",
+			"large-4 columns product-item",
+			".jpg",
+			"http://sites.vans.com/microsites/uc1/images/",
+			".gif",
+			"http://sites.vans.com/microsites/uc1/images/",
+			"</a></div></div>",
+			"<div class=\"large-3 small-6 columns\">",
+			"768px",
+			"767",
+			"class=\"lazy\" src=",
+			"push",
+			"641",
+			"medium",
+			"garnish-wrapper",
+			"http://www.vans.com/shop/tnt-sg-scarlet-white?cm_sp=tntsg-_-product-_-tntsgscarletwhite",
+			"max-width: 768",
+			".jpg",
+			"images/",
+			"1.03420195439739",
+			"40% 33% 0px",
+			"lazy",
+			"-1deg",
+			"-2deg",
+			"mte-wrap",
+			"mte_product",
+			"collapse",
+			"weatherized",
+			"collapse",
+			"pdp-uc1__wrap",
+			"pdp-uc1__video",
+			"images/",
+			"../images",
+			"href=\"\"",
+			"foundation",
+			"</div></div>",
+			"</a></div>",
+			"</a>",
+			"\"><img src",
+			"<div class=\"classic-style\">",
+			"<div class=\"large-3 small-6 columns\">",
+			"../images/",
+			"classics-styles__outter-wrap",
+			"video-uc1.html",
+			"images/",
+			"../images/",
+			"jpeg",
+			"large-3",
+			".olapic-wall-header .olapic-nav ul.nav li a",
+			".olapic-wall-header .olapic-nav ul.nav",
+			".olapic-wall-header .olapic-nav nav",
+			".olapic-wall-header .olapic-nav",
+			".olapic.btn-info",
+			".olapic .btn-info",
+			".olapic-wall-header .olapic-top .olapic-tools .olapic-upload",
+			".olapic-wall-header .olapic-top .olapic-tools",
+			".olapic-wall-header",
+			"small-1",
+			"small-3",
+			"column",
+			"small-3",
+			"height",
+			"subnav",
+			"div",
+			"wp_pp_ref_title",
+			"email",
+			"accept_paypal_payment_form",
+			"entry_date",
+			"757575",
+			"$highlight-color",
+			"$light-grey",
+			"src=\"images",
+			"../images/",
+			"lifestyle-bubble-06",
+			"'700'",
+			"70%",
+			"http://some-url",
+			"dealer",
+			"product-shop",
+			"2s",
+			" href=\"\"",
+			"[/images",
+			"photography-lifestyle",
+			"brand-elements-style",
+			"brand-elements-authentic",
+			"corporate logo",
+			"secondary",
+			" class=\"scrollto\"",
+			"brand-overview",
+			"h2",
+			"Typography",
+			"typography"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"git_savvy.file_path": "/Users/digiacj/sites/Weatherized/scss/page.scss",
+							"git_savvy.repo_path": "/Users/digiacj/sites/Weatherized",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"git_savvy.file_path": "/Users/digiacj/sites/Weatherized/index.html",
+							"git_savvy.repo_path": "/Users/digiacj/sites/Weatherized",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "weatherized-f15.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -107,9 +107,10 @@ body {
 /*------------------------------------*
    $BASE
 *------------------------------------*/
-.mte-wrap {
-  background: #fff;
-}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* remove when pushing to AEM */
+  overflow-x: hidden; }
 
 .clearfix:after {
   visibility: hidden;
@@ -217,36 +218,44 @@ body {
   color: #2ba6cb !important;
   border-bottom: dotted 1px #196177 !important; }
 
-/*===========================
-=            FPO            =
-===========================*/
-.masthead {
-  height: 110px; }
+.button {
+  border: none;
+  box-shadow: none; }
+  .button.shop-button {
+    background-color: #b90000;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8125em;
+    font-family: "franklin-gothic-urw-cond", "gnuolane", Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 10px 25px;
+    -webkit-transition: background-color 0.25s ease;
+    -o-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease; }
+    .button.shop-button:hover {
+      background-color: #000; }
 
-.masthead .blk-bar {
-  background: #000;
-  height: 15px; }
 
-/*-----  End of FPO  ------*/
 /*------------------------------------*
    $CUSTOM STYLES
 *------------------------------------*/
 .mte__hero {
   width: 100%;
-  height: 480px;
-  margin-bottom: 10px;
+  height: 600px;
   overflow: hidden;
   position: relative;
   text-align: center; }
   @media only screen and (max-width: 767px) {
     .mte__hero {
-      height: 360px; } }
+      height: 580px; } }
   @media only screen and (max-width: 480px) {
     .mte__hero {
-      height: 260px; } }
+      height: 480px; } }
   @media only screen and (max-width: 320px) {
     .mte__hero {
-      height: 180px; } }
+      height: 460px; } }
 
 .mte__hero--bg {
   position: absolute;
@@ -259,7 +268,7 @@ body {
   position: absolute;
   z-index: 10;
   text-align: center;
-  top: 150px;
+  top: 120px;
   width: 100%; }
   @media only screen and (max-width: 767px) {
     .mte__hero--logo {
@@ -278,6 +287,154 @@ body {
     @media only screen and (max-width: 767px) {
       .mte__hero--logo img.default {
         display: none; } }
+
+.mte__hero--copy {
+  padding: 25px 28% 0;
+  text-align: center;
+  color: #fff; }
+  @media only screen and (max-width: 1580px) {
+    .mte__hero--copy {
+      padding: 25px 26% 0; } }
+  @media only screen and (max-width: 1340px) {
+    .mte__hero--copy {
+      padding: 25px 18% 0; } }
+  @media only screen and (max-width: 1200px) {
+    .mte__hero--copy {
+      padding: 25px 14% 0; } }
+  @media only screen and (max-width: 1080px) {
+    .mte__hero--copy {
+      padding: 25px 8% 0; } }
+  @media only screen and (max-width: 900px) {
+    .mte__hero--copy {
+      padding: 25px 2% 0; } }
+  @media only screen and (max-width: 675px) {
+    .mte__hero--copy {
+      padding: 15px 2% 0; } }
+
+.mte__hero--copy p {
+  letter-spacing: 1px; }
+.mte__hero--copy .button {
+  text-transform: uppercase;
+  border: none;
+  box-shadow: none;
+  margin-top: 10px; }
+  .mte__hero--copy .button:hover {
+    background-color: #000; }
+  @media only screen and (max-width: 480px) {
+    .mte__hero--copy .button {
+      font-size: 0.85em; } }
+@media only screen and (max-width: 675px) {
+  .mte__hero--copy p {
+    font-size: 0.925em;
+    line-height: 1.5em; } }
+
+.btn--video {
+  background-color: #e0a304;
+  margin-right: 5%; }
+
+.btn--learn {
+  background-color: #fff;
+  color: #000; }
+
+.mte__section--features {
+  height: 500px;
+  background: url(http://s7d2.scene7.com/is/image/VansBrand/bg%2Dmte%2Dfeatures%2Dhero?wid=1800);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  position: static;
+  overflow: hidden;
+  padding: 60px 0;
+  position: relative; }
+  .mte__section--features h2 {
+    color: #fff;
+    font-family: "franklin-gothic-urw-comp", "franklin-gothic-urw-cond", Helvetica, sans-serif;
+    font-size: 2.625em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .mte__section--features ul li {
+    color: #fff;
+    font-size: 0.9375em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    list-style-type: none;
+    line-height: 1.35em;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+    .mte__section--features ul li span {
+      font-weight: 300;
+      text-transform: none; }
+    .mte__section--features ul li.list-title {
+      font-family: "franklin-gothic-urw-comp", "franklin-gothic-urw-cond", Helvetica, sans-serif;
+      font-size: 1.375em;
+      font-weight: 600;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      text-transform: uppercase; }
+  .mte__section--features .row {
+    padding: 10px 0; }
+  @media only screen and (max-width: 900px) {
+    .mte__section--features {
+      padding-top: 20px; } }
+
+.mte__subhero--features {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: 100; }
+  @media only screen and (max-width: 1640px) {
+    .mte__subhero--features {
+      right: 0; } }
+  @media only screen and (max-width: 1380px) {
+    .mte__subhero--features {
+      right: -60px; } }
+  @media only screen and (max-width: 1230px) {
+    .mte__subhero--features {
+      right: -100px; } }
+  @media only screen and (max-width: 1040px) {
+    .mte__subhero--features {
+      right: -200px; } }
+  @media only screen and (max-width: 900px) {
+    .mte__subhero--features {
+      right: -250px;
+      top: -110px; } }
+  @media only screen and (max-width: 728px) {
+    .mte__subhero--features {
+      display: none; } }
+
+.section--features__copy {
+  margin-left: 8.333%; }
+  @media only screen and (max-width: 1380px) {
+    .section--features__copy {
+      margin-left: 5%; } }
+  @media only screen and (max-width: 900px) {
+    .section--features__copy {
+      margin-left: 1%; } }
+  @media only screen and (max-width: 728px) {
+    .section--features__copy {
+      margin-left: 5%; } }
+
+.mte__subhero--group {
+  height: 500px;
+  background: url(http://s7d2.scene7.com/is/image/VansBrand/bg%2Dmte%2Dfeatures%2Dhero?wid=1800);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  position: static; }
+  @media only screen and (max-width: 600px) {
+    .mte__subhero--group {
+      background-attachment: scroll; } }
 
 .mte__product {
   padding-bottom: 10px;
@@ -455,6 +612,28 @@ body {
   @media only screen and (max-width: 640px) {
     .mte-lifestyle--women-02 {
       display: none; } }
+
+/* owl carousel styles */
+#owl-mte .item {
+  margin: 3px 5px;
+  text-align: center; }
+
+#owl-mte .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+
+#owl-mte .item span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-weight: 300; }
+
+.owl-buttons {
+  display: none; }
 
 /* styles to trigger js media query */
 .blank {
